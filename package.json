@@ -1,0 +1,23 @@
+{
+  "name": "calculator-sprite",
+  "version": "0.1.0",
+  "description": "I'm a Calculator, but not only, I will be your sprite that know more about your calculate habit.",
+  "homepage": "https://github.com/jinyahuan/",
+  "bugs": {
+    "url": "https://github.com/jinyahuan/calculator/issues",
+    "email": "yahuan.jin@outlook.com"
+  },
+  "keywords": ["calculator", "sprite"],
+  "license": "Apache-2.0 license",
+  "author": "Yahuan.Jin <yahuan.jin@outlook.com> (https://github.com/jinyahuan/)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinyahuan/calculator.git"
+  },
+  "scripts": {
+    "precompress": "echo \"BEFORE the `compress`\"",
+    "compress": "{{ echo \"compress\"",
+    "postcompress": "echo \"AFTER `compress`\""
+  }
+}
